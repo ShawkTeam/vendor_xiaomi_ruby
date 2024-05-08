@@ -1812,9 +1812,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/soundfx/libswgamedap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswgamedap.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/soundfx/libswvqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswvqe.so \
     vendor/xiaomi/ruby/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0-impl.so \
-    vendor/xiaomi/ruby/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
-    vendor/xiaomi/ruby/proprietary/system/system/lib64/android.hardware.usb.gadget@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.usb.gadget@1.0.so \
-    vendor/xiaomi/ruby/proprietary/system/system/lib64/android.hardware.usb.gadget-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/system/lib64/android.hardware.usb.gadget-V1-ndk.so
+    vendor/xiaomi/ruby/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so
 
 PRODUCT_PACKAGES += \
     ImsService \
