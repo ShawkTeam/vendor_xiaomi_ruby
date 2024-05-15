@@ -5,11 +5,16 @@
        auto_profile_enable is not supported.
   -->
 
+  <!-- M16 code for AM-57663 by zhangxiaoyu at 2023/10/19 start-->
   <cur_supl_profile name="ATnT_Mexico"
       addr="supl.attmex.mx"
       port="7275"
       tls="true"
+      supl_version="2"
+      tls_version="1"
+      sha_version="0"
   />
+  <!-- M16 code for AM-57663 by zhangxiaoyu at 2023/10/19 end-->
 
   <cdma_profile name="CDMA1"
   />

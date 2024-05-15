@@ -349,6 +349,56 @@
       sha_version="1"
   />
 
+  <!-- M16 code for AM-57663 by zhangxiaoyu at 2023/10/19 start-->
+  <!--Peru. Auto config HSLP based on IMSI -->
+  <supl_profile name="Entel"
+      addr=""
+      port="7275"
+      tls="true"
+      mcc="716"
+      supl_version="2"
+  />
+
+  <!-- Claro Peru -->
+  <supl_profile
+      name="Claro_PE"
+      addr=""
+      port="7275"
+      tls="true"
+      mcc_mnc="71610"
+      supl_version="2"
+      tls_version="1"
+      sha_version="0"
+      esupl_apn_mode="3"
+  />
+
+  <!-- Entel Peru -->
+  <supl_profile
+      name="Entel_PE"
+      addr=""
+      port="7275"
+      tls="true"
+      mcc_mnc="71617"
+      supl_version="2"
+      tls_version="1"
+      sha_version="0"
+      esupl_apn_mode="3"
+  />
+
+  <!-- Movistar Peru -->
+  <supl_profile
+      name="Movistar_PE"
+      addr=""
+      port="7275"
+      tls="true"
+      mcc_mnc="71606"
+      supl_version="2"
+      tls_version="1"
+      sha_version="0"
+      esupl_apn_mode="3"
+  />
+  <!-- M16 code for AM-57663 by zhangxiaoyu at 2023/10/19 end-->
+
   <!-- nlp_profile
 
     name:
@@ -1131,6 +1181,18 @@
       v1="71610"
     />
   </carrier_mapping>
+  <!-- M16 code for AM-57663 by zhangxiaoyu at 2023/10/19 start-->
+  <carrier_mapping name="Movistar_Peru">
+    <mcc_mnc
+      v1="71606"
+    />
+  </carrier_mapping>
+  <carrier_mapping name="Claro_Colombia">
+    <mcc_mnc
+      v1="732101"
+    />
+  </carrier_mapping>
+  <!-- M16 code for AM-57663 by zhangxiaoyu at 2023/10/19 end-->
   <carrier_mapping name="Entel_Peru">
     <mcc_mnc
       v1="71617"
@@ -1150,7 +1212,7 @@
       v3="46005"
     />
   </carrier_mapping>
-    <carrier_mapping name="CU">
+  <carrier_mapping name="CU">
     <mcc_mnc
       v1="46001"
       v2="46006"
